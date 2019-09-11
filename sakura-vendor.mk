@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sakura/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/sakura/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/sakura/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/xiaomi/sakura/proprietary/vendor/lib/libnativehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnativehelper.so \
     vendor/xiaomi/sakura/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/sakura/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
     vendor/xiaomi/sakura/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
@@ -141,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sakura/proprietary/lib64/libmmi_jni.so:system/lib64/libmmi_jni.so \
     vendor/xiaomi/sakura/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/sakura/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
-    vendor/xiaomi/sakura/proprietary/vendor/lib64/libnativehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnativehelper.so \
     vendor/xiaomi/sakura/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/xiaomi/sakura/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
     vendor/xiaomi/sakura/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
