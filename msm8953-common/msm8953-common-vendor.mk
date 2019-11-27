@@ -632,7 +632,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/imsvt.msm8953_shim.so:system/lib/imsvt.msm8953_shim.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/imsvt.msm8953_shim.so:system/lib64/imsvt.msm8953_shim.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/libspl.so:system/lib64/libspl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so
