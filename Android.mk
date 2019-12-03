@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sakura)
+ifeq ($(TARGET_DEVICE),daisy)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.display.color@1.0
@@ -311,14 +311,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := chargeonlymode
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/bin/chargeonlymode
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 endif
