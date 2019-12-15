@@ -19,10 +19,17 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter daisy,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := libbtconfigstore
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES_64 := proprietary/lib64/libbtconfigstore.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libbtconfigstore.so
+=======
+LOCAL_MODULE := vendor.display.color@1.0
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.display.color@1.0.so
+LOCAL_SRC_FILES_32 := proprietary/lib/vendor.display.color@1.0.so
+>>>>>>> parent of e3b3c18... msm8953-common: Update QTI bluetooth stack from LA.UM.8.6.2.r1-03700-…
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
